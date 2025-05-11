@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # we load the trained model
-model = joblib.load(r"C:\Users\olami\Documents\Jupyter\MY JUPITER\Pipeline\USA_lrPipeline.pkl")
+model = joblib.load("USA_lrPipeline.pkl")
 
 #Title
 st.title('USA HOUSE PRICE PREDICTOR')
